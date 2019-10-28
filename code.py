@@ -165,6 +165,6 @@ def plotLearningCurve(history, epoch):
     plt.legend(['Train', 'Test'], loc = 'upper left')
     plt.show()
 
-plotConfusionMatrix(confusion_matrix(y_pred_binary, y_test)))
+plotConfusionMatrix(confusion_matrix(y_pred_binary, y_test))
 
 plotLearningCurve(model.history, 50)
